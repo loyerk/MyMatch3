@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="match3.js"></script>
+    <link rel="stylesheet" href="match3.css"/>
+</head>
+
+	<body>
+
+<div class="backgroundImage">
+	<!-- ========== La grille ========== -->
+	<table  class="tableGame" border="1" > 
+		<tr> 
+			<td onclick="onClic(this)" id="0" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="1" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="2" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="3" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="4" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="5" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="6" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="7" height="25" width="28"></td>
+			
+		</tr>
+		<tr>
+			<td onclick="onClic(this)" id="8" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="9" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="10" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="11" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="12" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="13" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="14" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="15" height="25" width="28"></td>
+			
+		</tr>
+		<tr> 
+			<td onclick="onClic(this)" id="16" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="17" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="18" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="19" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="20" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="21" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="22" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="23" height="25" width="28"></td>
+			
+		</tr>
+		<tr>
+			<td onclick="onClic(this)" id="24" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="25" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="26" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="27" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="28" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="29" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="30" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="31" height="25" width="28"></td>
+			
+		</tr>
+		<tr> 
+			<td onclick="onClic(this)" id="32" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="33" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="34" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="35" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="36" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="37" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="38" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="39" height="25" width="28"></td>
+			
+		</tr>
+		<tr> 
+			<td onclick="onClic(this)" id="40" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="41" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="42" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="43" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="44" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="45" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="46" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="47" height="25" width="28"></td>
+			
+		</tr>
+		<tr> 
+			<td onclick="onClic(this)" id="48" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="49" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="50" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="51" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="52" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="53" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="54" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="55" height="25" width="28"></td>
+			
+		</tr>
+		<tr> 
+			<td onclick="onClic(this)" id="56" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="57" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="58" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="59" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="60" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="61" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="62" height="25" width="28"></td>
+			<td onclick="onClic(this)" id="63" height="25" width="28"></td>
+		</tr>
+	</table>
+
+		<table  class="tableGame" border="1" > 
+		<tr> 
+			<td id="menuScore" height="25" width="50"> score :  </td>
+			<td id="scoreBox" height="25" width="100"> 
+				<div id="score">  </div>
+			</td>
+			<td id="menuTime" height="25" width="50"> temps :  </td>
+			<td id="timeBox" height="25" width="50"> 
+				<div id="time">  </div>
+			</td>
+		</tr>
+	</table>
+
+
+	
+</div>
+
+	</body>
+
+</html>

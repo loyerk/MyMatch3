@@ -1,0 +1,19 @@
+body
+{
+	background-color: black;
+}
+
+.backgroundImage
+{
+	background-image: url(site/book.jpg);
+	background-repeat: no-repeat;
+	height:800px;
+	width:800px;
+	padding-top:150px;
+}
+
+.tableGame
+{
+	margin-left: 55%;
+	margin-top: 0.5%;
+}

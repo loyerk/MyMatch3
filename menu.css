@@ -1,0 +1,12 @@
+body
+{
+	background-color:black;
+}
+
+.backgroundImage
+{ 
+	background-image:url(site/discworld.jpg);
+	background-repeat:no-repeat;
+	height:1024px;
+	width:768px;
+}

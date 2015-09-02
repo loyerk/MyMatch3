@@ -1,0 +1,23 @@
+body
+{
+	background-color:black;
+}
+
+.backgroundImage
+{ 
+	background-image: url(site/gameover.png);
+	background-repeat: no-repeat;
+	height:800px;
+	width:800px;
+	padding-top:150px;
+}
+
+.back3:hover
+{
+	float-left;
+}
+
+.play3:hover
+{
+	float-left;
+}

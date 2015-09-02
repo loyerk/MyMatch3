@@ -1,0 +1,18 @@
+body
+{
+	background-color:black;
+}
+
+.backgroundImage
+{ 
+	background-image: url(site/regles.jpg);
+	background-repeat: no-repeat;
+	height:800px;
+	width:800px;
+	padding-top:150px;
+}
+
+.retry
+{
+	position:absolute;
+}
